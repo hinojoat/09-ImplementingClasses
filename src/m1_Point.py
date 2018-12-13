@@ -64,7 +64,7 @@ class Point(object):
         self.x = self.x + dx
         self.y = self.y + dy
 
-    
+
 def run_test_init():
     """
     Tests the   __init__   method of the Point class.
@@ -582,7 +582,7 @@ def run_test_get_number_of_moves_made():
         print('Actual for p2 moves made:  ', p2.get_number_of_moves_made())
     """
     # -------------------------------------------------------------------------
-    # TODO: 8.  Follow the same instructions as in _TODO_ 3 above,
+    # DONE: 8.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_number_of_moves_made  method specified above.
     # TODO (continued):  HINT: What must a Point REMEMBER for this method?
     # -------------------------------------------------------------------------
@@ -699,7 +699,7 @@ def run_test_get_distance_from():
         print('Actual   p2 to p4:', p2.get_distance_from(p4))
     """
     # -------------------------------------------------------------------------
-    # TODO: 9.  Follow the same instructions as in _TODO_ 3 above,
+    # DONE: 9.  Follow the same instructions as in _TODO_ 3 above,
     #    but for the  get_distance_from  method specified above.
     # -------------------------------------------------------------------------
     print()
